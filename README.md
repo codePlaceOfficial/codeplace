@@ -21,7 +21,7 @@
 > 采用前后端分离开发，前端采用React模块化构建，后端使用Nodejs。**与当下众多Cloud IDE基于Eclipse-Theia二次开发不同。该项目完全从零开始，一步一步构建出轻量级的Cloud IDE，可进行深度定制及二次开发。**
 
 **前端**
-> 完全采用函数式组件及React hooks开发，集成了MonacoEditor及Xtermjs，前后端使用websocket交互，使用socketIO基于事件驱动运行。
+> 完全采用函数式组件及React hooks开发，集成了MonacoEditor及XtermJs，前后端使用websocket交互，使用socketIO基于事件驱动运行。
 
 **后端**
 > 采用nodejs + chokidar + dockerode + docker
