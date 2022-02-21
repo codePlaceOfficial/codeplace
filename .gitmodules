@@ -1,0 +1,8 @@
+[submodule "codeplace-server"]
+	path = codeplace-server
+	url = https://github.com/codePlaceOfficial/codeplace-server
+	branch = v0.1
+[submodule "codeplace-client"]
+	path = codeplace-client
+	url = https://github.com/codePlaceOfficial/codeplace-client
+	branch = v0.1
