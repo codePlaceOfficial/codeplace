@@ -9,16 +9,16 @@
 
 </div>
 
-### Cloud IDE 简介
 > 随着开发技术的发展更迭，日常开发工作变得愈发复杂愈发深入，同时工程中从项目初始化、编译、构建到发布、运维也变得细化而成熟。本地开发环境存在开发机性能要求高、开发环境配置复杂、依赖特定设备、复杂工程管理难等问题，Cloud IDE 很好的解决了这些问题。最近几年，Cloud IDE 在开发全流程领域扮演者越来越重的角色，国内外很多大厂商都在做 Cloud IDE。
 
+> CodePlace是一款基于React，Nodejs，Docker等开发的轻量级Cloud IDE，使得用户无需维护复杂的编程环境即可在浏览器端获得高效的开发体验。`与当下众多Cloud IDE产品基于Eclipse-Theia二次开发不同。该项目完全从零开始，一步一步构建出轻量级的Cloud IDE，可进行深度定制及二次开发。`
 
 ### 技术简介
 **架构**
 
 ![architecture](./resource/architecture.png)
 **项目简介**
-> 采用前后端分离开发，前端采用React模块化构建，后端使用Nodejs。**与当下众多Cloud IDE基于Eclipse-Theia二次开发不同。该项目完全从零开始，一步一步构建出轻量级的Cloud IDE，可进行深度定制及二次开发。**
+> 采用前后端分离开发，前端采用React模块化构建，后端使用Nodejs。
 
 **前端**
 > 完全采用函数式组件及React hooks开发，集成了MonacoEditor及XtermJs，前后端使用websocket交互，使用socketIO基于事件驱动运行。
