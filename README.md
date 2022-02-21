@@ -27,12 +27,7 @@ _virtualFile_:
 
 ### 视频演示
 
-
-
-https://github.com/codePlaceOfficial/codeplace/blob/v0.1/resource/preview-1.mov?raw=true
-
-
-
+https://user-images.githubusercontent.com/96987305/154922355-235eb461-60b7-4b8b-ad56-ce3d6adb4dec.MP4
 
 ### 快速开始
 ``` bash
