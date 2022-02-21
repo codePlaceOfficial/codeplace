@@ -27,6 +27,13 @@ _virtualFile_:
 
 ### 视频演示
 
+
+
+https://github.com/codePlaceOfficial/codeplace/blob/v0.1/resource/preview-1.mov?raw=true
+
+
+
+
 ### 快速开始
 ``` bash
 # 拉取代码
