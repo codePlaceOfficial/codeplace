@@ -31,11 +31,14 @@
 > [codeplace-client](https://github.com/codePlaceOfficial/codeplace-client) : 前端，基于React开发，使用create-react-app创建管理
 > [codeplace-server](https://github.com/codePlaceOfficial/codeplace-server) : 后端，由express框架构建
 
-_virtualFile_:
-> 用于实现前后端文件双向同步,前端文件修改会同步到后端，通过终端手动修改后端文件时也会自动推送到前端，并且支持按需获得文件内容节省流量
-[virtualFileClient](https://github.com/codePlaceOfficial/virtualFileClient): 运行在前端用于管理文件系统，接收后端传来的文件操作事件，进行虚拟文件操作，并生成相应的obj格式的虚拟文件
-[virtualFileServer](https://github.com/codePlaceOfficial/virtualFileServer)：运行在服务器端接受前端发来的文件操作事件进行相应，并且会监控本地文件的改动自动将文件变动生成事件推送给前端
-[virtualFileEvent](https://github.com/codePlaceOfficial/virtualFileEvent)：生成并推送文件操作事件，在virtualFileClient和virtualFileServer中均有使用。
+
+> `virtualFile` 系列库用于实现前后端文件双向同步,前端文件修改会同步到后端，通过终端手动修改后端文件时也会自动推送到前端，并且支持按需获得文件内容节省流量
+> 
+> [virtualFileClient](https://github.com/codePlaceOfficial/virtualFileClient): 运行在前端用于管理文件系统，接收后端传来的文件操作事件，进行虚拟文件操作，并生成相应的obj格式的虚拟文件
+> 
+> [virtualFileServer](https://github.com/codePlaceOfficial/virtualFileServer)：运行在服务器端接受前端发来的文件操作事件进行相应，并且会监控本地文件的改动自动将文件变动生成事件推送给前端
+> 
+> [virtualFileEvent](https://github.com/codePlaceOfficial/virtualFileEvent)：生成并推送文件操作事件，在virtualFileClient和virtualFileServer中均有使用。
 
 > [sandbox](https://github.com/codePlaceOfficial/sandbox)：用于维护并管理docker容器实例，并使用class包装，使用codeplaceofficial/compiler:0.2镜像，可以直接运行代码和得到tty流
 > [compiler](https://github.com/codePlaceOfficial/compiler):存储dockerfile文件，用于构建codeplaceofficial/compiler镜像，基于ubuntu:20.04修改,集成了c/c++,ruby,python,go,nodejs,java,rust……等运行环境，使用zsh作为默认终端环境
