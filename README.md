@@ -36,7 +36,8 @@
 <!-- > `virtualFile` 系列库用于实现前后端文件双向同步,前端文件修改会同步到后端，通过终端手动修改后端文件时也会自动推送到前端，并且支持按需获得文件内容节省流量
  -->
 > [virtualFileClient](https://github.com/codePlaceOfficial/virtualFileClient): 运行在前端用于管理文件系统，接收后端传来的文件操作事件，进行虚拟文件操作，并生成相应的obj格式的虚拟文件
- 
+
+
 > [virtualFileServer](https://github.com/codePlaceOfficial/virtualFileServer)：运行在服务器端接受前端发来的文件操作事件进行相应，并且会监控本地文件的改动自动将文件变动生成事件推送给前端
  
 > [virtualFileEvent](https://github.com/codePlaceOfficial/virtualFileEvent)：生成并推送文件操作事件，在virtualFileClient和virtualFileServer中均有使用。
