@@ -27,7 +27,7 @@
 > 采用nodejs + chokidar + dockerode + docker
 > 自动创建并管理docker容器，自动管理并暴露docker流，在前端将xterm接入该流中模拟终端
 
-### 各仓库介绍
+### 子仓库介绍
 > [codeplace-client](https://github.com/codePlaceOfficial/codeplace-client) : 前端，基于React开发，使用create-react-app创建管理
 
 > [codeplace-server](https://github.com/codePlaceOfficial/codeplace-server) : 后端，由express框架构建
