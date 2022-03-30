@@ -2,7 +2,7 @@
     <img width="100" src="https://github.com/codePlaceOfficial/Resources/blob/master/logo.png?raw=true" alt="codeplace logo" style="border-radius:20px"/>
 </p>
 
-<p align="center"><b>codeplace</b> 一款完全开源的轻量级Cloude IDE</p>
+<p align="center"><b>codeplace</b> 一款完全开源的轻量级Cloud IDE</p>
 <div style='margin:0 auto;width:80%;'>
 
 ![Codeplace](./resource/preview.png)
